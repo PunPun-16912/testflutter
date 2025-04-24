@@ -28,7 +28,7 @@ class _MovieScreenState extends State<MovieScreen> {
             child: Row(
               children: [
                 Expanded(
-                  flex: 3, // ขนาดของ TextField
+                  flex: 3, 
                   child: TextField(
                     controller: controller.searchController,
                     onChanged: (value) => controller.searchText.value = value,
